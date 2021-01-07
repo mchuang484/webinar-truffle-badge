@@ -19,6 +19,7 @@ contract TruffleBadge is ERC721 {
         public
         returns (uint256)
     {
+        // Mike's build
         _badgeIds.increment();
 
         uint256 newBadgeId = _badgeIds.current();
