@@ -7,7 +7,7 @@ module.exports = {
      network_id: "*",
     },
     sandbox: {
-      url: `https://sandbox.truffleteams.com/59abc1ee-2123-4491-8507-4408ee2274db`,
+      url: `https://sandbox.truffleteams.com/e634e9ca-9e85-4dee-a00d-0b8fe8d3ed68`,
       network_id: "*",
       gas: 5500000
     }
