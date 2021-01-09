@@ -7,7 +7,7 @@ contract TruffleBadgeCopy is ERC721 {
     using Counters for Counters.Counter;
     Counters.Counter private _badgeIds;
 
-    constructor() ERC721("TruffleBadge", "TRFL") public {
+    constructor() ERC721("TruffleBadgeCopy", "TRFL") public {
     }
     
     /// @notice Ability to add award a badge (via _mint) to a webinar attendee via their EOA 
@@ -29,12 +29,5 @@ contract TruffleBadgeCopy is ERC721 {
         return newBadgeId;
     }
 
-    function awardBadgeOrigCopy()
-        public
-        returns (uint256)
-    {
-
-
-        return 100;
-    }
+ 
 }
