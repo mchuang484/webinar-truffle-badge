@@ -28,4 +28,13 @@ contract TruffleBadge is ERC721 {
 
         return newBadgeId;
     }
+
+    function awardBadgeOrig()
+        public
+        returns (uint256)
+    {
+
+
+        return 100;
+    }
 }
